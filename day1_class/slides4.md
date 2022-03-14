@@ -373,7 +373,7 @@ template:distrib
 name:oned
 # One-dimensional Gaussian
 
-$$ P(x|\mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}}e^{\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2} \text{ for } x\in \mathbf R$$
+$$ P(x|\mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2} \text{ for } x\in \mathbf R$$
 
 - \\( \mu, \sigma \in \mathbf R \\)
 - \\( \mu \\) is the *mean*, \\( \sigma^2\\) is the *variance* (\\( \sigma\\) is the *standard deviation* )
